@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form">
+        <h1>Signup/Create your account</h1>
+        <form>
+          <label for="username">Username: </label>
+          <input type="text" placeholder="username" maxlength="6" /><br /><br />
+          <label for="password">Password: </label>
+          <input type="password" placeholder="enter your password" /><br /><br />
+          <label for="gender">Gender: </label>
+          <input type="radio" id="male" name="gender" value="male" checked="checked" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" checked="checked" value="female">
+          <label for="female" >Female</label><br /><br />
+          <label for="Hobbies">Hobbies: </label>
+          <input type="checkbox" name="cricket" id="cricket" value="cricket">cricket
+          <input type="checkbox" name="football" id="football" value="football">football
+          <input type="checkbox" name="basketball" id="basketball" value="basketball">basketball
+          <input type="checkbox" name="car-racing" id="car-racing" value="car-racing">cricket
+          <br><br>
+          <label for="Nationality">Nationality: </label>
+          <select name="select" id="select" width="60px" >
+              <option value="pakistani" selected="indian">Pakistani</option>
+              <option value="indian" selected="indian">Indian</option>
+              <option value="china" selected="indian">China</option>
+          </select><br><br>
+          <label for="comments">Message: </label><br /><br />
+          <textarea name="textarea" id="text" rows="5" cols="40" placeholder="Speak your mind here without any filter"></textarea
+          ><br /><br />
+          <button type="submit" class="">Create Account</button>
+        </form>
+      </div>
+      <div class="form-image">
+        <img src="form-image.png" alt="form image">
+      </div>
+    </div>
+  </body>
+</html>
